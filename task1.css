@@ -1,0 +1,210 @@
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: "Poppines",sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+#first{
+    margin-left:20px;
+}
+.sep{
+display: flex;
+align-items: center;
+font-size:56px;
+font-weight: 700;
+letter-spacing: 2px;
+color:bisque
+
+}
+.image{
+width: 50%;
+margin-left:10px;
+}
+.paragraph{
+width: 50%;
+}
+section{
+    position:relative;
+    width:100%;
+    min-height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-start;
+    background: url("backgroundca.jpg")no-repeat;
+    background-size: 1500px;
+    background-color: rgb(64, 3, 3);
+}
+header{
+    position:relative;
+    top:0;
+    width:100%;
+    padding: 30px 100px;
+    display:flex ;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo{
+    position: relative;
+    color:rgb(233, 226, 226);
+    font-size :30px;
+    text-decoration:none;
+    text-transform:uppercase;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+
+header .navigation a,.navigation1 a{
+    color:rgb(233, 226, 226);
+    background:rgba(165, 42, 42, 0.989);
+    text-decoration: none;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding: 5px 20px;
+    border-radius: 20px;
+}
+
+header .navigation a:not(:last-child){
+    margin-right: 30px;
+}
+
+header .navigation a:hover,.navigation1 a:hover,.navigation2 a:hover{
+    background: rgb(212, 123, 123);
+}
+
+.content{
+    max-width: 650px;
+    margin:60px 100px;
+
+}
+
+.content .info h2{
+    color:rgba(165, 42, 42, 0.859);
+    font-size:55px;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 2px;
+    line-height: 60px;
+    margin-bottom: 30px;
+}
+
+.content .info h2 span{
+    font-size:35px;
+    font-weight:800;
+}
+
+.content .info p{
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 40px;  
+}
+
+.media-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.media-icons a{
+    position :relative;
+    color:rgb(254, 241, 241);
+    font-size: 35px;
+    transition: 0.3s;
+    padding-top:40px;
+    transition-property: transform;
+}
+
+.media-icons a:not(:last-child){
+    margin-right: 15px;
+}
+
+.media-icons a:hover{
+    transform:scale(1.5);
+}
+
+.image2,.image3{
+    padding-top:70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    justify-content:space-around;
+    align-content:space-between;
+    
+}
+
+.image2 a,.image3 a{
+    position :relative;
+    padding-left: 60px;
+    transition: 0.4s;
+    transition-property: transform;
+}
+
+.image2 a:hover,.image3 a:hover{
+    transform:scale(1.1);
+}
+
+.gal,.ab{
+   padding-top:60px;
+}
+.image4{
+    width:60%;
+    padding-top:70px;
+    margin-left:50px;
+}
+.co{
+    padding-top: 30px;
+    padding-bottom: 20px;
+    background-color:rgba(213, 95, 95, 0.542);
+}
+
+.sep1{
+    display: flex;
+align-items: center;
+font-size:36px;
+font-weight: 700;
+letter-spacing: 2px;
+color:bisque;
+
+}
+.navigation2 a{
+    color:rgb(233, 226, 226);
+    background:rgba(165, 42, 42, 0.989);
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding: 5px 20px;
+    border-radius: 10px;
+    font-size:30px;
+}
+
+.navigation3 a{
+    color:rgb(233, 226, 226);
+    text-decoration: none;
+   font-size: 18px;
+   padding-left: 50px;
+}
+
+p h2{
+    padding-top: 20px;
+}
+input[type=text] {
+    width:15%;
+    border-radius: 7px;
+    padding:10px;
+    
+  }
+input[type=submit]{
+    border-radius: 7px;
+    padding:8px;
+}
+  form{
+    padding-right: 40px;
+  }
